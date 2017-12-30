@@ -1,7 +1,7 @@
 // Code ported to Paper.js from http://the389.com/9/1/ with permission.
 
 var values = {
-	friction: 1.5,
+	friction: 0.5,
 	timeStep: 0.01,
 	amount: 20,
 	mass: 2,
@@ -35,7 +35,7 @@ Spring.prototype.update = function() {
 
 function createPath(strength) {
 	var path = new Path({
-		fillColor: 'rgb(131, 211, 255)'
+		fillColor: '#006ba5'
 	});
 	springs = [];
 	for (var i = 0; i <= values.amount; i++) {
@@ -100,10 +100,10 @@ function updateWave(path) {
 	}
 	path.smooth({ type: 'continuous' });
 }
-
-function onKeyDown(event) {
-	if (event.key == 'space') {
-		path.fullySelected = !path.fullySelected;
-		path.fillColor = path.fullySelected ? null : 'black';
-	}
-}
+//
+//function onKeyDown(event) {
+//	if (event.key == 'space') {
+//		path.fullySelected = !path.fullySelected;
+//		path.fillColor = path.fullySelected ? null : 'black';
+//	}
+//}

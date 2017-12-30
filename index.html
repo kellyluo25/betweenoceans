@@ -7,20 +7,23 @@
 	<title>between oceans</title>
 
 	<!-- css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100|Merriweather:300i|Roboto+Slab:100" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <canvas id="oceanwaves" resize></canvas>
         <h1>between oceans</h1>
-
+        <p class="subtitle">a calming collection of oceanic songs and poems <br /> hover for ocean waves, spacebar for more nautical inspiration</p>
+        <div id="content">
+            <p id="main-text"></p>
+            <p id="source">—<span id="text-attr"></span> | <span id="text-title"></span></p>
+        </div>
 
 	<!-- js -->
 	<script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/paper-full.min.js"></script>
     <script type="text/paperscript" src="js/oceanwaves.js" canvas="oceanwaves"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/d3.js"></script>
-
+    
 </body>
 </html>
