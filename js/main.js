@@ -7,7 +7,6 @@ var oceancontent = [
     {text: "And I hear your ship is comin' in <br /> Your tears a sea for me to swim <br /> And I hear a storm is comin' in <br /> My dear, is it all we’ve ever been?", title: "Anchor", attr: "Novo Amor"},
     {text: "If you're gonna let me down, let me down gently <br /> Don't pretend that you don't want me <br /> Our love ain't water under the bridge", title: "Water Under the Bridge", attr: "Adele"},
     {text: "And the arms of the ocean are carrying me <br /> And all this devotion was rushing out of me  <br /> And the crashes are heaven, for a sinner like me  <br /> But the arms of the ocean delivered me", title: "Never Let Me Go", attr: "Florence + the Machine"},
-    {text: "if <br /> the ocean <br /> can calm itself, <br /> so can you. <br /> we  <br /> are both  <br />salt water  <br />mixed with  <br />air.", title: "meditation", attr: "Nayyirah Waheed"},
     {text: "you broke the ocean in <br /> half to be here.<br />only to meet nothing that wants you.", title: "immigrant", attr: "Nayyirah Waheed"}
     
 ];
