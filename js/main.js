@@ -9,7 +9,7 @@ var oceancontent = [
     {text: "And the arms of the ocean are carrying me <br /> And all this devotion was rushing out of me  <br /> And the crashes are heaven, for a sinner like me  <br /> But the arms of the ocean delivered me", title: "Never Let Me Go", attr: "Florence + the Machine"},
     {text: "you broke the ocean in <br /> half to be here.<br />only to meet nothing that wants you.", title: "immigrant", attr: "Nayyirah Waheed"},
   	{text: "for whatever we lose <br /> (like a you or a me), <br/> it's always ourselves we find in the sea", title: "maggie and milly and molly and may", attr: "e.e. cummings"}, 
-      {text: "And all this longing <br/> And the ships are left to rust <br/> That's what the water gave us", title: "what the water gave me", attr: "Florence + the Machine"}
+     {text: "And all this longing <br/> And the ships are left to rust <br/> That's what the water gave us", title: "what the water gave me", attr: "Florence + the Machine"}
 ];
 
 function newContent () {
